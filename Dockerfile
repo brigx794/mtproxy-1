@@ -36,7 +36,6 @@ VOLUME /data
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD [ \
   
-  "--port", "$PORT", \
   "--http-ports", "$PORT", \
   "--slaves", "2", \
   "--max-special-connections", "60000", \
